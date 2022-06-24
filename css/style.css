@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.text-center{
+    text-align: center;
+}
+/* Container */
+.container{
+    max-width: 100%;
+    margin: 0 16px;
+}
+/* Profile */
+.profile{margin: 32px;}
+.profile section h2{
+    font-size: 36px;
+    margin: 32px 0 16px;
+}
+.profile section h4, .btn-black a, .btn-white a{
+    font: 900 13px Arial, Helvetica, Sans-serif;
+}
+.profile section h4{
+    text-transform: uppercase;
+}
+/* Botões */
+.botoes{
+    margin-bottom: 32px;
+}
+.btn-black a, .btn-white a{
+    display: flex;
+    justify-content: center;
+    padding: 19px 0;
+} 
+.btn-black, .btn-white a{
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+/* Follow */
+.btn-black{
+    background: #000;
+    margin: 0 0 16px;
+}
+.btn-black a{
+    color: #fff;
+}
+/* Messagem */
+.btn-white a{
+    color: #000;
+    border: 2px solid #000
+}
+/* Galeria */
+.galeria{
+    display: flex;
+    gap: 9px;
+    margin-bottom: 32px;
+    justify-content: space-around;
+}
+.grid-um, .grid-dois{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 50%;
+    gap: 9px;
+}
+.grid-dois{
+    grid-column: 2;
+}
+/* Veja Mais */
+.more{
+    margin-bottom: 148px;
+}
+/* Menu */
+.menu{
+    background: #fff;
+    bottom: 0;
+    display: flex;
+    margin: 0 15px;
+    padding: 9px 0 34px;
+    position: fixed;
+    justify-content: space-around;
+    min-width: 98%;
+    border-top: 2px solid #E5E5E5;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
