@@ -113,18 +113,17 @@ input[type="email"]:placeholder,
 input[type="tel"]:placeholder,
 input[type="search"]:placeholder,
 input[type="url"]:placeholder{color:#666;}
-/* Centralizar Texto*/
-.text-center{
-    text-align: center;
-}
 /* Container */
 .container{
     max-width: 100%;
-    padding: 0 16px;
+    margin: 0 16px;
 }
 /* Profile */
-.profile{margin: 32px;}
-.profile section h2{
+.profile{
+    margin: 32px;
+    text-align: center;
+}
+.profile section h1{
     font: 400 36px/40px 'Comfortaa';
     margin: 32px 0 16px;
 }
@@ -136,15 +135,12 @@ input[type="url"]:placeholder{color:#666;}
 }
 /* Botões */
 .botoes{
-    display: grid;
-    justify-content: center;
     margin-bottom: 32px;
 }
 .btn-black a, .btn-white a{
     display: flex;
     justify-content: center;
     padding: 19px 0;
-    min-width: 345px;
 } 
 .btn-black, .btn-white{
     border: 2px solid #000;
@@ -185,39 +181,18 @@ input[type="url"]:placeholder{color:#666;}
     margin-bottom: 148px;
 }
 /* Menu */
-nav{
-    display: flex;
-    justify-content: center;
-}
-.menu{
+ul{
     background: #fff;
     border-top: 2px solid #E5E5E5;
     bottom: 0;
-    display: grid;
+    display: flex;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
     position: fixed;
+    width: 100%;
 }
-.home, .search, .upload, .chat, .me{
+ul li a{
     cursor: pointer;
     display: flex;
-    justify-content: center;
-}
-.home a, .search a, .upload a, .chat a, .me a{
     padding: 9px 0 34px;
-}
-.home a{
-    content: url(../imagens/Home.png);
-}
-.search a{
-    content: url(../imagens/Search.png);
-}
-.upload a{
-    content: url(../imagens/Upload.png);
-}
-.chat a{
-    content: url(../imagens/Chat.png);
-}
-.me a{
-    content: url(../imagens/Profile.png);
 }
